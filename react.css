@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items {
+    color: wheat;
+    list-style: none;
+    display: flex;
+}
+
+.footer{
+    background-color: darkgray;
+    color: lavender;
+}
+.Main {
+    background: linear-gradient(yellow,white);
+    border-radius: 10px;
+    width: 50%;
+    justify-content: center;
+
+}

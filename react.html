@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="react.css">
+</head>
+<body>
+    <header>
+        <div class="function">
+            <div class="logo">
+                <a href="#"><img src="img.png" alt=""></a>
+            </div>
+            <div class="buttton">
+                <button class="search">Search</button>
+            </div>
+            <ul>
+                <a href="#"><li>Services</li></a>
+                <a href="#"><li>Pricing</li></a>
+                <a href="#"><li>Education</li></a>
+                <a href="#"><li>Contacts</li></a>
+                <a href="#"><li>About</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form action="">
+                        <h1>Registlation Form</h1>
+                        <div class="personal_info">
+                            <label for="surname">Surname</label>
+                            <input type="text" placeholder="eg. Ajuba">
+                            <label for="firstname">Firstname</label>
+                            <input type="text" placeholder="eg. Okwuchukwu">
+                            <label for="surname">Lastname</label>
+                            <input type="text" placeholder="eg. Anthony">
+                            <label for="Mothers_madian_name">Mother_madian_name</label>
+                            <input type="text" placeholder="eg. Amateze">
+                            <label for="birthdate" class="birth_date">Date of Birth</label>
+                            <input type="date">
+                        </div>
+                        <h1>contacts</h1>
+                        <div class="contacts">
+                            <h2>Let's contact your</h2>
+                            <label for="email" class="emial">Email</label>
+                            <input type="email" placeholder="eg. ajubaokwuchukwuanthony2000@gmail.com">
+                            <label for="phone" class="emial">phone</label>
+                            <input type="text" placeholder="eg. +2349066777597">
+                        </div>
+                        <h3>Gender</h3>
+                        <label for="gender" class="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="others" class="other">Complicated</option>
+                        </select>
+                        <div class="age">
+                            <h1>How old are you</h1>
+                            <progress value="16" max="45">Your age</progress>
+                        </div>
+                        <h1>Nationality</h1>
+                        <div class="nationality">
+                            <h3>Please select your nationality</h3>
+                            <select name="country" id=""></select>
+                        </div>
+                        <div class="nationality">
+                            <h3>Please select your birth country</h3>
+                            <select name="country" id=""></select>
+                        </div>
+                        <h1>About yourself...</h1>
+                        <div class="more">
+                            <label for="" class="textarea">...more about yourself</label>
+                            <textarea name="" id="" cols="30" rows="10">
+                                hint: This is your selling point!
+                            </textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <section class="vidoes">
+            <div class="foreign">
+                <h2>Upload to the cloud that that seems intising to you</h2>
+            </div>
+        </section>
+    
+    
+        <div id="route"></div>
+        <script src="react.js" type="text/babel"></script>
+        <script src="Header.js"></script>
+    </main>
+    <footer></footer>
+</body>
+</html>
